@@ -1,0 +1,141 @@
+body *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F0F2F5;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.header{
+    margin-top: 205px;
+    margin-left: 185px;
+    width: 500px;
+}
+
+.logo{
+    height: 106px;
+    margin: -28px;
+}
+
+.paragraph{
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-top: 15px;
+    max-width: 500px;
+}
+
+.form{
+    position: relative;
+    top: 120px;
+    height: 350px;
+    width: 400px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 70px;
+    box-shadow: 1px 1px 10px #00000015,
+    -1px -1px 10px #00000015;
+    align-items: center;
+}
+
+@media screen  {
+    
+}
+
+.text-input{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #DDDFE2;
+    outline: none;
+}
+
+.text-input:focus{
+    border: 1px solid #1b74e4;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.text-input::placeholder{
+    color: #90949C;
+    font-size: 16px;
+}
+
+.form input[type="submit"]{
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    background-color: #1877F2;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.link{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.forget-password{
+    font-size: 13px;
+    margin: 20px;
+    color: #1877F2;
+    text-decoration: none;
+}
+
+.forget-password:hover{
+    text-decoration: underline;
+}
+
+.hr{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    text-align: center;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button button{
+    margin-top: 20px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #42b72a;
+}
+
+.button button:hover{
+    background-color: #36A420;
+    cursor: pointer;
+}
+
+.main{
+    align-items: center;
+}
+
+.main p{
+    margin-top: 145px;
+    font-size: 14px;
+    margin-left: 120px;
+}
+
+.main p a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
